@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExploreWorld Travel Agency</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>ExploreWorld Travel Agency</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Discover Amazing Places with ExploreWorld</h2>
+        <p>Plan your perfect vacation with our exclusive travel packages. We offer tours to the most beautiful destinations in the world.</p>
+        <button onclick="exploreMore()">Explore More</button>
+    </section>
+
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-card">
+            <!-- <img src="paris.jpg" alt="Paris"> -->
+            <h3>Paris, France</h3>
+            <p>The city of love and lights, explore the Eiffel Tower, museums, and charming streets of Paris and beautiful Places.</p>
+        </div>
+        <div class="destination-card">
+            <!-- <img src="bali.jpg" alt="Bali"> -->
+            <h3>Bali, Indonesia</h3>
+            <p>A tropical paradise known for its stunning beaches, rich culture, and serene landscapes.</p>
+        </div>
+        <div class="destination-card">
+            <!-- <img src="sydney.jpg" alt="Sydney"> -->
+            <h3>Sydney, Australia</h3>
+            <p>Visit the iconic Sydney Opera House, beautiful harbors, and stunning beaches.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="number">Contact:</label>
+            <input type="number" id="number" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="formResponse"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ExploreWorld Travel Agency. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script/scripts.js"></script>
+</body>
+</html>
